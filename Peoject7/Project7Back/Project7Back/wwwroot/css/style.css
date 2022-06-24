@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#intro-example {
+    height: 400px;
+  }
+
+  /* Height for devices larger than 992px */
+  @media (min-width: 992px) {
+    #intro-example {
+      height: 600px;
+    }
+  }
+.bg1{
+    background-color: rgb(6, 24, 94);
+    padding-top: 10%;
+    height: 600px;
+}
+
+.bg1 h1{
+    font-size: 52px;
+    font-weight: bold;
+}
+.main1{
+    background-color: rgb(8, 20, 66);
+}
+.main1 .feature-icon{
+    width: 60px;
+    height: 70px;
+    background-color: rgb(6, 23, 88);;
+}
+.main1 .feature-icon i{
+    color: rgb(40, 73, 207);
+}
+.main2{
+    background-color: rgb(4, 14, 54);
+}
+.main2 .gallery{
+    background-color: rgb(20, 31, 77);
+}
+.main3{
+    background-color: rgb(8, 20, 66);
+}
+.main3 .feature{
+    background-color: rgb(44, 58, 116);
+    margin: 10px;
+}
+.main4{
+    background-color: rgb(3, 10, 41);
+}
+.main4 .card-title{
+    background-color: rgb(34, 44, 85);
+}
+.main4 .form1{
+    background-color: rgb(34, 44, 85);
+    padding: 45px;
+    
+}
+.main4 .form2{
+    background-color: rgb(20, 33, 82);
+    padding: 30px;
+}
+footer{
+    background-color: rgb(15, 27, 73);
+}
+footer .icons i{
+    padding: 5px;
+    color: rgb(231, 226, 226);
+}
